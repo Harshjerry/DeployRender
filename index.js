@@ -4,7 +4,7 @@ const promptRouter = require('./routes/promptRoute');
 const cors = require('cors');
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");  //require dotenv package
-dotenv.config({ path: "./config.env" }); 
+dotenv.config(); 
 
  
 
